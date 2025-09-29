@@ -1,0 +1,51 @@
+
+@import 'default';
+
+$primary-color: tomato;
+$primary-font:sans-serif,'cursive';
+
+ body{
+    background:  $primary-color;
+    font-family:  $primary-font;
+ }
+
+// .container nav ul > li:nth-child(1){
+//    font-size: 1em;
+// }
+
+// .container nav ul > li:nth-child(2){
+
+// }
+
+//Nesting
+.container{
+    width: 100%;
+    height: 100%;
+    nav {
+        ul{
+           li{
+            font-size: 1em;
+           } 
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+//Partials
+
+//_partial.scss
+// @import
+
+// mixins
+
+.transform {
+}
+
+
+
+
+
+
+
