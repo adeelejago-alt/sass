@@ -15,8 +15,11 @@ body {
   width: 100%;
   height: 100%;
 }
-.container nav ul li {
+.container nav ul li:nth-child(1) {
   font-size: 1em;
+}
+.container nav ul li:nth-child(2) {
+  font-size: 2em;
 }
 .container nav a {
   text-decoration: none;
@@ -46,4 +49,29 @@ body {
 
 .border1 {
   margin: 20px;
+}
+
+.element a {
+  text-decoration: none;
+  color: black;
+}
+.element a:hover {
+  color: white;
+}
+
+.header {
+  /*addition*/
+  font-size: 6px;
+  /*substraction*/
+  height: 75%;
+  /*multi*/
+}
+.header .multi {
+  width: 100%;
+  /*division*/
+  height: 6px;
+}
+.header p::before {
+  content: "I am a string withquate";
+  font-family: cursiveserif;
 }/*# sourceMappingURL=index.css.map */
